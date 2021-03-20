@@ -4,18 +4,15 @@ Qt-based opencv plugin framework qtCvFrameLearn.
 @[TOC](基于QT的opencv插件框架qtCvFrameLearn)
 # 目录  
 #  0 结果展示
+项目链接: [基于QT的opencv插件框架qtCvFrameLearn](https://github.com/pengguanjun/qtCvFrameLearn).
 ![基于QT的opencv插件框架qtCvFrameLearn](https://img-blog.csdnimg.cn/20210320225659838.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhbnR1Z3VpZ3V6aVBHSg==,size_16,color_FFFFFF,t_70)
-
 # 1 参考链接
 链接: [Qt-5-and-OpenCV-4-Computer-Vision-Projects](https://github.com/PacktPublishing/Qt-5-and-OpenCV-4-Computer-Vision-Projects).
-
 链接: [qt5.13配置opencv4.2环境 mscv版](https://editor.csdn.net/md/).
 
 
-![qt插件框架qtCvFrameLearn](https://img-blog.csdnimg.cn/20210320223250544.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhbnR1Z3VpZ3V6aVBHSg==,size_16,color_FFFFFF,t_70)
 # 2 文件目录结构
-![qt插件框架qtCvFrameLearn](https://img-blog.csdnimg.cn/20210320223405607.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhbnR1Z3VpZ3V6aVBHSg==,size_16,color_FFFFFF,t_70)
-
+![qt插件框架qtCvFrameLearn](https://img-blog.csdnimg.cn/20210320223405607.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhbnR1Z3VpZ3V6aVBHSg==,size_16,color_FFFFFF,t_70)![qt插件框架qtCvFrameLearn](https://img-blog.csdnimg.cn/20210320223250544.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhbnR1Z3VpZ3V6aVBHSg==,size_16,color_FFFFFF,t_70)
 # 3 项目配置文件ImageEditor.pro
 ```cpp
 ######################################################################
@@ -622,6 +619,5 @@ CV_EXPORTS_W void GaussianBlur( InputArray src, OutputArray dst, Size ksize,
                                 int borderType = BORDER_DEFAULT );
 ```
 ![opencv中的GaussianBlur()函数](https://img-blog.csdnimg.cn/20210320220023642.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3lhbnR1Z3VpZ3V6aVBHSg==,size_16,color_FFFFFF,t_70)
-
 
 
